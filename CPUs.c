@@ -1,7 +1,7 @@
 /** CPUs.c
  * ===========================================================
- * Name: <Last Name, First Name>
- * Section: <Section>
+ * Name: <Ye, Peter>
+ * Section: <M4A>
  * Project: PEX2 - CPU Scheduling Simulator
  * Purpose: Implements six CPU scheduling algorithms as POSIX threads.
  *          Each thread follows the same pattern every timestep:
@@ -14,7 +14,8 @@
  *          All accesses to readyQ and finishedQ are protected by their
  *          respective mutex locks.
  * ===========================================================
- * Documentation Statement: <describe any help received>
+ * Documentation Statement: C1C Ethan Chapman assisted me in figuring out the Round Robin function, as well as with describing how to properly preempt existing 
+ * processes. I received no other outside help on this assignment.
  * =========================================================== */
 
 #include <stdio.h>
